@@ -1,0 +1,15 @@
+html {
+	height: 100%;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	margin: 0;
+	padding: 0;
+	background-color: rgba(219, 221, 106, 0.527);
+}
+* {
+	margin: 0;
+	padding: 0;
+}

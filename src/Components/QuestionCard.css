@@ -1,0 +1,41 @@
+.questionContainer {
+	height: auto;
+	width: 500px;
+	background-color: rgba(191, 201, 150, 0.596);
+	display: inline-flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	border: 1px solid black;
+	padding: 30px;
+	margin-top: 30px;
+	font-family: "Courier New", Courier, monospace;
+}
+.number {
+	margin-bottom: 20px;
+}
+.questionText {
+	height: auto;
+	width: inherit;
+	font-size: 1.3em;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+.options {
+	height: auto;
+	width: 70%;
+}
+
+.options * {
+	width: 100%;
+	height: 100%;
+}
+
+.option {
+	height: 70px;
+	margin-top: 20px;
+	font-size: 20px;
+}
+
+.option:disabled {
+	color: black;
+}
